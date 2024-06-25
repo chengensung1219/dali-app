@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233FF83C2C2B6714006724FB /* dali_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF83B2C2B6714006724FB /* dali_appApp.swift */; };
+		233FF83E2C2B6714006724FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF83D2C2B6714006724FB /* ContentView.swift */; };
+		233FF8402C2B6715006724FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233FF83F2C2B6715006724FB /* Assets.xcassets */; };
+		233FF8432C2B6715006724FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233FF8422C2B6715006724FB /* Preview Assets.xcassets */; };
+		233FF84D2C2B6715006724FB /* dali_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF84C2C2B6715006724FB /* dali_appTests.swift */; };
+		233FF8572C2B6715006724FB /* dali_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF8562C2B6715006724FB /* dali_appUITests.swift */; };
+		233FF8592C2B6715006724FB /* dali_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF8582C2B6715006724FB /* dali_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233FF8492C2B6715006724FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233FF8302C2B6714006724FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233FF8372C2B6714006724FB;
+			remoteInfo = "dali-app";
+		};
+		233FF8532C2B6715006724FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233FF8302C2B6714006724FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233FF8372C2B6714006724FB;
+			remoteInfo = "dali-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		233FF8382C2B6714006724FB /* dali-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dali-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233FF83B2C2B6714006724FB /* dali_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dali_appApp.swift; sourceTree = "<group>"; };
+		233FF83D2C2B6714006724FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		233FF83F2C2B6715006724FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233FF8422C2B6715006724FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		233FF8482C2B6715006724FB /* dali-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dali-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233FF84C2C2B6715006724FB /* dali_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dali_appTests.swift; sourceTree = "<group>"; };
+		233FF8522C2B6715006724FB /* dali-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dali-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233FF8562C2B6715006724FB /* dali_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dali_appUITests.swift; sourceTree = "<group>"; };
+		233FF8582C2B6715006724FB /* dali_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dali_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233FF8352C2B6714006724FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233FF8452C2B6715006724FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233FF84F2C2B6715006724FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233FF82F2C2B6714006724FB = {
+			isa = PBXGroup;
+			children = (
+				233FF83A2C2B6714006724FB /* dali-app */,
+				233FF84B2C2B6715006724FB /* dali-appTests */,
+				233FF8552C2B6715006724FB /* dali-appUITests */,
+				233FF8392C2B6714006724FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		233FF8392C2B6714006724FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233FF8382C2B6714006724FB /* dali-app.app */,
+				233FF8482C2B6715006724FB /* dali-appTests.xctest */,
+				233FF8522C2B6715006724FB /* dali-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233FF83A2C2B6714006724FB /* dali-app */ = {
+			isa = PBXGroup;
+			children = (
+				233FF83B2C2B6714006724FB /* dali_appApp.swift */,
+				233FF83D2C2B6714006724FB /* ContentView.swift */,
+				233FF83F2C2B6715006724FB /* Assets.xcassets */,
+				233FF8412C2B6715006724FB /* Preview Content */,
+			);
+			path = "dali-app";
+			sourceTree = "<group>";
+		};
+		233FF8412C2B6715006724FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				233FF8422C2B6715006724FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		233FF84B2C2B6715006724FB /* dali-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				233FF84C2C2B6715006724FB /* dali_appTests.swift */,
+			);
+			path = "dali-appTests";
+			sourceTree = "<group>";
+		};
+		233FF8552C2B6715006724FB /* dali-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				233FF8562C2B6715006724FB /* dali_appUITests.swift */,
+				233FF8582C2B6715006724FB /* dali_appUITestsLaunchTests.swift */,
+			);
+			path = "dali-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		233FF8372C2B6714006724FB /* dali-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233FF85C2C2B6715006724FB /* Build configuration list for PBXNativeTarget "dali-app" */;
+			buildPhases = (
+				233FF8342C2B6714006724FB /* Sources */,
+				233FF8352C2B6714006724FB /* Frameworks */,
+				233FF8362C2B6714006724FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dali-app";
+			productName = "dali-app";
+			productReference = 233FF8382C2B6714006724FB /* dali-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		233FF8472C2B6715006724FB /* dali-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233FF85F2C2B6715006724FB /* Build configuration list for PBXNativeTarget "dali-appTests" */;
+			buildPhases = (
+				233FF8442C2B6715006724FB /* Sources */,
+				233FF8452C2B6715006724FB /* Frameworks */,
+				233FF8462C2B6715006724FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233FF84A2C2B6715006724FB /* PBXTargetDependency */,
+			);
+			name = "dali-appTests";
+			productName = "dali-appTests";
+			productReference = 233FF8482C2B6715006724FB /* dali-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		233FF8512C2B6715006724FB /* dali-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233FF8622C2B6715006724FB /* Build configuration list for PBXNativeTarget "dali-appUITests" */;
+			buildPhases = (
+				233FF84E2C2B6715006724FB /* Sources */,
+				233FF84F2C2B6715006724FB /* Frameworks */,
+				233FF8502C2B6715006724FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233FF8542C2B6715006724FB /* PBXTargetDependency */,
+			);
+			name = "dali-appUITests";
+			productName = "dali-appUITests";
+			productReference = 233FF8522C2B6715006724FB /* dali-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233FF8302C2B6714006724FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					233FF8372C2B6714006724FB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					233FF8472C2B6715006724FB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 233FF8372C2B6714006724FB;
+					};
+					233FF8512C2B6715006724FB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 233FF8372C2B6714006724FB;
+					};
+				};
+			};
+			buildConfigurationList = 233FF8332C2B6714006724FB /* Build configuration list for PBXProject "dali-app" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 233FF82F2C2B6714006724FB;
+			productRefGroup = 233FF8392C2B6714006724FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				233FF8372C2B6714006724FB /* dali-app */,
+				233FF8472C2B6715006724FB /* dali-appTests */,
+				233FF8512C2B6715006724FB /* dali-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233FF8362C2B6714006724FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233FF8432C2B6715006724FB /* Preview Assets.xcassets in Resources */,
+				233FF8402C2B6715006724FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233FF8462C2B6715006724FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233FF8502C2B6715006724FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233FF8342C2B6714006724FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233FF83E2C2B6714006724FB /* ContentView.swift in Sources */,
+				233FF83C2C2B6714006724FB /* dali_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233FF8442C2B6715006724FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233FF84D2C2B6715006724FB /* dali_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233FF84E2C2B6715006724FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233FF8592C2B6715006724FB /* dali_appUITestsLaunchTests.swift in Sources */,
+				233FF8572C2B6715006724FB /* dali_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233FF84A2C2B6715006724FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233FF8372C2B6714006724FB /* dali-app */;
+			targetProxy = 233FF8492C2B6715006724FB /* PBXContainerItemProxy */;
+		};
+		233FF8542C2B6715006724FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233FF8372C2B6714006724FB /* dali-app */;
+			targetProxy = 233FF8532C2B6715006724FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		233FF85A2C2B6715006724FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		233FF85B2C2B6715006724FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233FF85D2C2B6715006724FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dali-app/Preview Content\"";
+				DEVELOPMENT_TEAM = T5V7BVT8BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dali-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		233FF85E2C2B6715006724FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dali-app/Preview Content\"";
+				DEVELOPMENT_TEAM = T5V7BVT8BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dali-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		233FF8602C2B6715006724FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5V7BVT8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dali-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dali-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dali-app";
+			};
+			name = Debug;
+		};
+		233FF8612C2B6715006724FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5V7BVT8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dali-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dali-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dali-app";
+			};
+			name = Release;
+		};
+		233FF8632C2B6715006724FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5V7BVT8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dali-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dali-app";
+			};
+			name = Debug;
+		};
+		233FF8642C2B6715006724FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T5V7BVT8BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dali-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dali-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233FF8332C2B6714006724FB /* Build configuration list for PBXProject "dali-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233FF85A2C2B6715006724FB /* Debug */,
+				233FF85B2C2B6715006724FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233FF85C2C2B6715006724FB /* Build configuration list for PBXNativeTarget "dali-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233FF85D2C2B6715006724FB /* Debug */,
+				233FF85E2C2B6715006724FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233FF85F2C2B6715006724FB /* Build configuration list for PBXNativeTarget "dali-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233FF8602C2B6715006724FB /* Debug */,
+				233FF8612C2B6715006724FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233FF8622C2B6715006724FB /* Build configuration list for PBXNativeTarget "dali-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233FF8632C2B6715006724FB /* Debug */,
+				233FF8642C2B6715006724FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 233FF8302C2B6714006724FB /* Project object */;
+}

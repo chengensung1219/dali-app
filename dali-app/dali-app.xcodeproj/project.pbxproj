@@ -14,6 +14,8 @@
 		233FF84D2C2B6715006724FB /* dali_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF84C2C2B6715006724FB /* dali_appTests.swift */; };
 		233FF8572C2B6715006724FB /* dali_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF8562C2B6715006724FB /* dali_appUITests.swift */; };
 		233FF8592C2B6715006724FB /* dali_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233FF8582C2B6715006724FB /* dali_appUITestsLaunchTests.swift */; };
+		5D1971C52C312A4700AFCB86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1971C42C312A4700AFCB86 /* HomeView.swift */; };
+		5D1971C72C312BF500AFCB86 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1971C62C312BF500AFCB86 /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		233FF8522C2B6715006724FB /* dali-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dali-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		233FF8562C2B6715006724FB /* dali_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dali_appUITests.swift; sourceTree = "<group>"; };
 		233FF8582C2B6715006724FB /* dali_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dali_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D1971C42C312A4700AFCB86 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5D1971C62C312BF500AFCB86 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				233FF83D2C2B6714006724FB /* ContentView.swift */,
 				233FF83F2C2B6715006724FB /* Assets.xcassets */,
 				233FF8412C2B6715006724FB /* Preview Content */,
+				5D1971C42C312A4700AFCB86 /* HomeView.swift */,
+				5D1971C62C312BF500AFCB86 /* NavigationView.swift */,
 			);
 			path = "dali-app";
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1971C52C312A4700AFCB86 /* HomeView.swift in Sources */,
 				233FF83E2C2B6714006724FB /* ContentView.swift in Sources */,
+				5D1971C72C312BF500AFCB86 /* NavigationView.swift in Sources */,
 				233FF83C2C2B6714006724FB /* dali_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

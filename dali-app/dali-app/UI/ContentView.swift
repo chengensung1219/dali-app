@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  DaliAPP
+//  dali-app
 //
-//  Created by Simon Sung on 9/3/24.
+//  Created by Seth on 9/6/24.
 //
 
 import SwiftUI

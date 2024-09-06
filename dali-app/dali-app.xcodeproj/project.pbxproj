@@ -13,7 +13,6 @@
 		23EFB1ED2C877202002166B7 /* DaliAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB1EB2C877202002166B7 /* DaliAPPApp.swift */; };
 		23EFB1F12C87720B002166B7 /* SettingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB1EF2C87720B002166B7 /* SettingRowView.swift */; };
 		23EFB1F22C87720B002166B7 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB1EE2C87720B002166B7 /* InputView.swift */; };
-		23EFB1FE2C877219002166B7 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB1F62C877219002166B7 /* AuthViewModel.swift */; };
 		23EFB1FF2C877219002166B7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB1F92C877219002166B7 /* ProfileView.swift */; };
 		23EFB2002C877219002166B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB1F32C877219002166B7 /* LoginView.swift */; };
 		23EFB2012C877219002166B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EFB1FB2C877219002166B7 /* ContentView.swift */; };
@@ -31,7 +30,6 @@
 		23EFB1EF2C87720B002166B7 /* SettingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRowView.swift; sourceTree = "<group>"; };
 		23EFB1F32C877219002166B7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		23EFB1F42C877219002166B7 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
-		23EFB1F62C877219002166B7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		23EFB1F92C877219002166B7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		23EFB1FB2C877219002166B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23EFB2032C877229002166B7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 		23EFB1F72C877219002166B7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				23EFB1F62C877219002166B7 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -248,7 +245,6 @@
 				23EFB1ED2C877202002166B7 /* DaliAPPApp.swift in Sources */,
 				23EFB1F12C87720B002166B7 /* SettingRowView.swift in Sources */,
 				23EFB1F22C87720B002166B7 /* InputView.swift in Sources */,
-				23EFB1FE2C877219002166B7 /* AuthViewModel.swift in Sources */,
 				23EFB1FF2C877219002166B7 /* ProfileView.swift in Sources */,
 				23EFB2052C877229002166B7 /* User.swift in Sources */,
 				23EFB2002C877219002166B7 /* LoginView.swift in Sources */,
@@ -463,8 +459,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = exactVersion;
-				version = 10.9.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

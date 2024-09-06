@@ -7,17 +7,16 @@
 
 import SwiftUI
 import Firebase
-import FirebaseFirestore
 
 @main
 struct DaliAPPApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    @StateObject var viewModel = AuthViewModel()
+    init() {
+        FirebaseApp.configure()
+    }
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(viewModel)
         }
     }
 }

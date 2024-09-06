@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import Firebase
-import FirebaseFirestore
 
 struct SettingRowView: View {
     let imageName: String
